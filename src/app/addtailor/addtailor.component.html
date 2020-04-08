@@ -1,0 +1,72 @@
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1 class="display-4">Add New Tailor!</h1>
+    <p class="lead">We bring the best tailors and best prices to your home, so that you can get that perfect look at a
+      great price..</p>
+    <hr class="my-4">
+    <form  (ngSubmit)="addTailor()">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Full Name" >
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="Firm Name" class="form-control"  />
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="Shop Number" class="form-control" />
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="Mobile" class="form-control" />
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="Email" class="form-control" />
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="Street" class="form-control" />
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="Area" class="form-control"/>
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="City" class="form-control" />
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="Country" class="form-control"  />
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Something about you...." ></textarea>
+      </div>
+
+
+ <div class="form-group">
+    <input type="text" placeholder="Male Dresses (seperated by comma)" class="form-control" n/>
+  </div>
+  <div class="form-group">
+      <input type="text" placeholder="Female Dresses (seperated by comma)" class="form-control" />
+    </div>
+      <div class="form-group">
+        <input type="text" placeholder="Multiple Tags (seperated by comma)" class="form-control" />
+      </div>
+
+      <div class="custom-file">
+        <input type="file" class="custom-file-input" id="validatedCustomFile" >
+        <label class="custom-file-label" for="validatedCustomFile">Choose pics...</label>
+        <div class="invalid-feedback">Example invalid custom file feedback</div>
+      </div>
+      <br>
+      <br>
+
+      <button type="submit" class="btn btn-primary btn-lg">Add</button>
+      &nbsp;
+      <button type="button" class="btn btn-secondary btn-lg" (click)="resetAddForm()">Reset</button>
+
+    </form>
+  </div>
+</div>
